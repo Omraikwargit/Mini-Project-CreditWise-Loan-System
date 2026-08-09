@@ -1,7 +1,7 @@
 # Mini-Project-CreditWise-Loan-System
 CreditWise: Customer Credit Risk Prediction
 
-##About the Project
+## About the Project
 
 Every day, banks and financial institutions receive thousands of loan applications. One of their biggest challenges is deciding whether an applicant is likely to repay the loan or become a defaulter. Making the wrong decision can result in significant financial losses.
 
@@ -9,7 +9,7 @@ I built CreditWise to explore how Machine Learning can assist in this decision-m
 
 This project was developed as part of my learning journey in Machine Learning and Data Science. It covers the complete workflow of a real-world classification problem, from understanding the data to training and evaluating predictive models.
 
-Problem Statement
+## Problem Statement
 
 Financial institutions need a reliable way to identify customers who are likely to repay their loans. Traditional manual assessment can be slow, subjective, and inconsistent.
 
@@ -20,7 +20,7 @@ Bad Credit Risk
 
 Such predictions can help reduce loan defaults and improve the overall efficiency of the lending process.
 
-Project Objectives
+## Project Objectives
 
 The main objectives of this project are:
 
@@ -32,7 +32,7 @@ Compare model performance using evaluation metrics.
 Predict the creditworthiness of new customers.
 Dataset
 
-The project uses a customer credit dataset containing information such as:
+## The project uses a customer credit dataset containing information such as:
 
 Customer age
 Employment status
@@ -47,7 +47,7 @@ Purpose of the loan
 
 The target variable indicates whether the customer is considered a good or bad credit risk.
 
-Technologies Used
+## Technologies Used
 Python
 Jupyter Notebook
 Pandas
@@ -56,13 +56,13 @@ Matplotlib
 Scikit-learn
 Project Workflow
 
-#The project follows the standard Machine Learning pipeline.
+# The project follows the standard Machine Learning pipeline.
 
-###1. Data Collection
+### 1. Data Collection
 
 The dataset is imported into Jupyter Notebook using Pandas for further analysis.
 
-###2. Data Exploration
+### 2. Data Exploration
 
 Before building the model, I explored the dataset to understand:
 
@@ -74,7 +74,7 @@ Relationships between variables
 
 This step helped identify potential issues and understand the characteristics of the data.
 
-###3. Data Preprocessing
+### 3. Data Preprocessing
 
 The preprocessing stage includes:
 
@@ -85,7 +85,7 @@ Preparing the dataset for model training
 
 Proper preprocessing ensures that the Machine Learning algorithm receives clean and consistent data.
 
-###4. Exploratory Data Analysis (EDA)
+### 4. Exploratory Data Analysis (EDA)
 
 EDA was performed to discover meaningful insights about customer behavior.
 
@@ -95,13 +95,13 @@ Which customers are more likely to default?
 Which features have the strongest relationship with credit risk?
 How is the target variable distributed?
 
-###5. Model Training
+### 5. Model Training
 
 After preprocessing, the dataset was divided into training and testing sets.
 
 Different Machine Learning algorithms can be trained on the processed data to classify customer credit risk. The trained model learns patterns from historical records and uses those patterns to predict the creditworthiness of unseen customers.
 
-###6. Model Evaluation
+### 6. Model Evaluation
 
 To evaluate the performance of the model, multiple classification metrics are used, including:
 
